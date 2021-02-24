@@ -1,0 +1,74 @@
+.Footer-Outter{
+    display: flex;
+    margin-top: 80px;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+
+.Footer{
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.Footer-Logo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.list-main{
+    display: block;
+    justify-content: space-between;
+    list-style: none;
+
+}
+.cente{
+    display: flex;
+    justify-content: center;
+}
+
+.Foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+.Contact{
+    background: transparent;
+}
+.review {
+    width: calc(100% - 18px);
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #1c87c9;
+    outline: none;
+    }
+
+    .contacthead{
+        font-size: 45px;
+        text-align: left;
+    }
+
+    .underline{
+        display: flex;
+        justify-content: center;
+    border-bottom: black 2px solid;
+
+    }
+    .transp{
+        background: transparent;
+    }
+    .transp:hover{
+        background-color: white;
+    }
+
+    .btn-submit {
+        justify-content: center !important;  
+        align-content: center;
+        height: 34px !important;
+        width:auto !important;
+        display: inline-grid !important;
+        border-radius: 10% !important;
+        background-color: black;
+        color: white;
+    }
+    .btn-submit:hover{
+        cursor: pointer;
+    }

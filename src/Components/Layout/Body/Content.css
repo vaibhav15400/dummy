@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.Outter-Most{
+    background-color: whitesmoke !important;
+    display: block;
+    width: 100%;    
+    text-align: center;
+    align-content: center;
+}
+.Inner-card{
+    display: flex;
+    justify-content: center;
+}
+.Inner-card button{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+}
+.comment{
+    height: 10px;
+}
+.Blog-Logo{
+    height: 19px;
+    width: 19px;
+}
+.Blog-Main{
+    display: flex;
+}
+.Blogs, .DIY{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    object-fit: contain;
+}
+.Blog-Image1{
+    height: 200px;
+    width: auto;
+    border-radius: 5%;
+    object-fit: contain;
+
+
+}
+.Main-Head{
+    display: flex;
+    padding: 20px;
+
+    justify-content: space-around;
+}
+.Change-button{
+      
+    height: 50px;
+    width: 50px;
+    border-radius: 90%;
+}
+
+  .Blog-Post {
+    padding: 20px;
+    
+    object-fit: contain;
+
+  } 
+  .Blog-Post1 {
+    padding: 20px;
+    
+    object-fit: contain;
+
+    
+
+  } 
+  .Blog-Post3 {
+    padding: 20px;
+    
+    object-fit: contain;
+
+  } 
+
+.DIY1{
+    border-radius: 5%;
+
+} 
+.DIY-Image1{
+    height: 200px;
+    border-radius: 5%;
+    object-fit: contain;
+
+
+}
+h5{
+    margin-bottom: 100px;
+}
+.DIY-Post {
+   
+    
+    border: 1px solid;
+    padding: 20px;
+
+  } 
+  .DIY-Post1 {
+
+    
+    border: 1px solid;
+    padding: 20px;
+
+  } 
+  .DIY-Post3 {
+    border: 1px solid;
+    
+    padding: 20px;
+
+  } 
+.btn {
+    justify-content: center !important;  
+    align-content: center;
+    height: 34px !important;
+    width:auto !important;
+    display: inline-grid !important;
+    border-radius: 10% !important;
+    background-color: black;
+    color: white;
+}
+.btn :hover{
+    cursor: pointer;
+}
